@@ -25,7 +25,12 @@ export default function HomePage() {
                 Sign Up
               </Button>
             </Link>
-
+            <Link
+             href="/forgot-password"
+              className="text-sm text-blue-600 hover:underline float-right"
+            >
+              Mot de passe oublié ?
+            </Link>   
             <div className="relative my-6">
               <div className="absolute inset-0 flex items-center">
                 <div className="w-full border-t border-gray-300"></div>

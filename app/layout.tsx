@@ -37,7 +37,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-      <body className={`font-sans antialiased`}>
+      <body className={`font-sans antialiased`} suppressHydrationWarning={true}>
         {children}
         <Analytics />
       </body>
